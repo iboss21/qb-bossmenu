@@ -90,7 +90,8 @@ end)
 -- Outfit
 menu_button3:On("select", function()
     MenuV:CloseMenu(menu)
-    TriggerEvent('qb-clothing:client:openOutfitMenu')
+    --TriggerEvent('qb-clothing:client:openOutfitMenu')
+    TriggerEvent('cui_wardrobe:open')
 end)
 
 -- Society
